@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by antarin (http://jsbin.com/ziceken/3/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta name="description" content="Profil. Róna Miklós">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo|Niconne" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+/*CSS reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+
+/*Alap Stílusok*/
+
+h1 {
+  font-family: 'Niconne', cursive;
+  font-size: 2rem;
+}
+
+h2, p, li {
+  font-family: Boogalo, cursive;
+  letter-spacing: .rem;
+}
+
+h1, h2, p, li, span, section, div {
+  margin: .2rem auto;
+  padding: .25rem;
+  color: #fff;
+}
+
+.head, .links, .content {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/*Stílusok*/
+
+  /*Kép*/
+
+img {
+  width: 8rem;
+  border: 1px solid grey;
+  border-radius: 50%;
+  margin-top: -60px;
+}
+
+img:hover {
+  transform: rotateY(180deg);
+  transition: all 2s ease-in-out;
+}
+
+
+  /*Pozicionálás*/
+
+.profil {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(100, 15%, 0%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(100, 60%, 50%, .8) 10px 10px 80px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('http://i.imgur.com/j01oGTR.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+  /*Linkek*/
+
+ul li {
+  text-decoration-style: none;
+  display: inline;
+  margin: 0.5rem 1rem;
+}
+
+a {
+  color: hsla(200,50%,50%,.9);
+}
+
+a:hover {
+  color: hsla(200,50%,70%,1);
+}
+
+i:hover {
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+  <div class="profil">
+    <header class="head">
+      <div class="pic">
+        <img src="http://i.imgur.com/fwZ4Uxa.jpg" alt="Róna Miklós">
+      </div>
+      <div class="from">
+        <h1>Róna Miklós</h1>
+        <h2>Tanuló</h2>
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Budapest, HU</p>
+      </div>
+    </header>
+    <div class="content">
+      <p>Nem régen kezdtem tanulni a CodeBerry-nél. Nagyon élvezem és szívesen csinálom. Emelett két helyen dolgozom ezért mondhatni sztahanovista vagyok :)</p>
+      <section class="links">
+        <h2>Contatct me via</h2>
+        <ul>
+          <li><a href="mailto:miklos.rona@gmail.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/miklos.rona" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/miklosrona/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
